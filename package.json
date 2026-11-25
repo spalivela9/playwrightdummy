@@ -1,0 +1,23 @@
+{
+  "name": "playwright-project",
+  "version": "1.0.0",
+  "description": "BDD Login Tests with Playwright and Cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:chrome": "cucumber-js --publish-quiet",
+    "test:debug": "cucumber-js --publish-quiet --require-module ts-node/register"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^20.0.0",
+    "playwright": "^1.65.1",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
